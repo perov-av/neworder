@@ -1,0 +1,15 @@
+root = true
+charset = utf-8
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[*.{js,less,json}]
+indent_style = space
+tab_width = 2
+
+[*.min.*]
+indent_style = ignore
+trim_trailing_whitespace = false
+insert_final_newline = ignore

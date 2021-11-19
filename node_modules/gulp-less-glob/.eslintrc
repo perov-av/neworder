@@ -1,0 +1,14 @@
+{
+  "parser": "babel-eslint",
+  "extends": "standard",
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "semi": [2, "always"],
+    "space-in-parens": 0,
+    "space-before-function-paren": 0,
+    "indent": 0,
+    "padded-blocks": 0
+  }
+}
